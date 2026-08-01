@@ -140,21 +140,21 @@
 
 # while for 4th.
 
-my_list = [1, 0, 5, 6, 7, 0, 9]
-what_we_want_to_find = 0
-number_of_iterations = my_list.count(what_we_want_to_find)
-
-new_list = []
-index = 0
-
-while index < number_of_iterations:
-
-    my_list.remove(what_we_want_to_find)
-    my_list.append(what_we_want_to_find)
-
-    index += 1
-
-print(my_list)
+# my_list = [1, 0, 5, 6, 7, 0, 9]
+# what_we_want_to_find = 0
+# number_of_iterations = my_list.count(what_we_want_to_find)
+#
+# new_list = []
+# index = 0
+#
+# while index < number_of_iterations:
+#
+#     my_list.remove(what_we_want_to_find)
+#     my_list.append(what_we_want_to_find)
+#
+#     index += 1
+#
+# print(my_list)
 
 # for _ in range(number_of_iterations):
 #
