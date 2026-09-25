@@ -37,19 +37,19 @@
 # # print(result)
 #
 #
-# def get_weather(temperature, sky_type):
-#     res = ""
-#
-#     if temperature == 15 and sky_type == "cloudy":
-#         res = "it's fine, but take your umbrella"
-#     elif temperature > 15:
-#         res = "It's hot"
-#     elif temperature == 15:
-#         res = "it's fine"
-#     else:
-#         res = "it's cold"
-#
-#     return None
+def get_weather(temperature, sky_type):
+    res = ""
+
+    if temperature == 15 and sky_type == "cloudy":
+        res = "it's fine, but take your umbrella"
+    elif temperature > 15:
+        res = "It's hot"
+    elif temperature == 15:
+        res = "it's fine"
+    else:
+        res = "it's cold"
+
+    return res
 #
 #
 # print(get_weather(temp, sky))
