@@ -204,8 +204,8 @@
 # write
 # writelines
 
-filename = "test.txt"
-
+# filename = "test.txt"
+#
 # my_file = open(filename, "w")
 #
 # my_file.write("Hello World!")
